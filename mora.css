@@ -1,0 +1,140 @@
+body {
+  background: linear-gradient(to right, #00cdac, #8ddad5);
+}
+
+.player-box {
+  background-color: rgba(172, 59, 255, 0.85);
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+.computer-box {
+  background-color: rgba(172, 59, 255, 0.55);
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 10%;
+  left: 49.4%;
+}
+
+/* Player turn */
+.player-rock {
+  position: absolute;
+  width: 100px;
+  height: 120px;
+  top: 70%;
+  left: 7%;
+}
+
+.player-paper {
+  position: absolute;
+  width: 100px;
+  height: 120px;
+  top: 70%;
+  left: 37%;
+}
+
+.player-scissors {
+  position: absolute;
+  width: 100px;
+  height: 120px;
+  top: 70%;
+  left: 67%;
+}
+
+/* Computer turn */
+.computer-rock {
+  position: absolute;
+  width: 100px;
+  height: 120px;
+  top: 70%;
+  left: 7%;
+  display: none;
+}
+
+.computer-paper {
+  position: absolute;
+  width: 100px;
+  height: 120px;
+  top: 70%;
+  left: 37%;
+  display: none;
+}
+
+.computer-scissors {
+  position: absolute;
+  width: 100px;
+  height: 120px;
+  top: 70%;
+  left: 67%;
+  display: none;
+}
+
+.player {
+  text-align: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.computer {
+  text-align: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.button_rock,
+.button_paper,
+.button_scissors {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-weight: bold;
+  background-color: #ff6eff;
+  border-radius: 5px;
+  font-size: 26px;
+  width: 100px;
+  height: 40px;
+}
+
+.button_rock:hover,
+.button_paper:hover,
+.button_scissors:hover {
+  background-color: #ff48ff;
+}
+
+.button_rock {
+  position: absolute;
+  top: 60%;
+  left: 7%;
+}
+
+.button_paper {
+  position: absolute;
+  top: 60%;
+  left: 37%;
+}
+
+.button_scissors {
+  position: absolute;
+  top: 60%;
+  left: 67%;
+}
+
+#question-mark {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+
+#player-result {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  position: absolute;
+  top: 20%;
+  left: 37%;
+  font-size: 3rem;
+}
