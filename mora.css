@@ -2,22 +2,29 @@ body {
   background: linear-gradient(to right, #00cdac, #8ddad5);
 }
 
+/* Box */
 .player-box {
   background-color: rgba(172, 59, 255, 0.85);
+  transition-duration: 2s;
   width: 400px;
   height: 500px;
   position: absolute;
   top: 10%;
   left: 20%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .computer-box {
   background-color: rgba(172, 59, 255, 0.55);
+  transition-duration: 2s;
   width: 400px;
   height: 500px;
   position: absolute;
   top: 10%;
   left: 49.4%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 /* Player turn */
@@ -87,6 +94,7 @@ body {
   font-size: 3rem;
 }
 
+/* Button */
 .button_rock,
 .button_paper,
 .button_scissors {
